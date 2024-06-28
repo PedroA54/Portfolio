@@ -41,51 +41,44 @@ export const experiencesData = [
     date: "2024",
     },
     {
-    title: "Competitive Operations Coordinator",
+    title: "Professional Truck Driver",
     location: "Remote",
     description:
-        "I worked as a competitive operations coordinator for about 3 years. I learned time management and organization skills to operate in fast-moving environment.",
+        "I worked as an experienced Professional Truck Driver, adept at safely operating commercial vehicles in strict compliance with regulations. I excelled in conducting thorough inspections and optimizing delivery routes for efficiency, consistently meeting deadlines. I was known for my strong commitment to customer service, fostering positive relationships with clients and maintaining a stellar record for safety and reliability in diverse driving conditions.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2024",
+    date: "2022 - 2024",
     },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
+
 ] as const;
 
 export const projectsData = [
     {
-    title: "PetPal Hotel",
+    title: "Bartender Buddy",
     description:
-        "Webpage game that keeps track of the user’s score and displays it on score page. Users are able to keep track of their score via their username and are able to play two unique rounds.",
-    tags: ["React", "JavaScript", "CSS", "HTML"],
-    imageUrl:  petpal_hotelImg,
-    },
-    {
-    title: "RecipeRealm",
-    description:
-        "CLI game that mimics plant growing simulation.",
-    tags: ["Python", "CLI", "SQLite"],
-    imageUrl: reciperealmImg,
+        "Bartender Buddy is a web app for discovering and sharing cocktail recipes. Users can browse recipes, search by name or ingredients, and contribute their own mixes.",
+    tags: [ "JavaScript", "CSS", "HTML"],
+    imageUrl:  bartenderbuddyImg,
     },
     {
     title: "FotoForge",
     description:
-        "This is a project made to implement full-stack basic knowledge with forms and user authentication and authorization.",
-    tags: ["React", "JavaScript", "SQL", "Python", "Flask", "CSS", "Flask-SQLAlchemy", "Marshmallow"],
+        "Create, Save, Interact, and Tailor images to your unique vision.",
+    tags: ["JavaScript", "CSS", "HTML"],
     imageUrl: fotoforgeImg,
     },
     {
-    title: "Bartender Buddy",
+    title: "PetPal Hotel",
     description:
-        "Fully deployed full-stack web application enabling users to leave reviews for cafes and comment on existing reviews within the cafe.",
-    tags: ["React", "JavaScript", "Python", "Flask-SQLAlchemy", "Marshmallow", "GoogleAuth"],
-    imageUrl: bartenderbuddyImg,
+        "A web application for managing pet reservations allowing owners to book stays and mange owner and pet profiles.",
+    tags: ["React", "JavaScript", "SQL", "Python", "Flask", "CSS", "Flask-SQLAlchemy" ],
+    imageUrl: petpal_hotelImg,
+    },
+    {
+    title: "RecipeRealm",
+    description:
+        "Fully deployed full-stack web application enabling users to discover a diverse collection of recipes from around the world.",
+    tags: ["Css","React", "JavaScript", "Python", "Flask-SQLAlchemy", "Marshmallow"],
+    imageUrl: reciperealmImg,
     },
 ] as const;
 
@@ -96,10 +89,13 @@ export const skillsData = [
     "React",
     "Formik",
     "Yup",
-    "Git",
+    "GitHub",
     "PostgreSQL",
     "Python",
     "Flask",
     "Flask-SQLAlchemy",
+    "SQLite",
     "Marshmallow",
+    "JSON",
+    "Postman API"
 ] as const;

@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Pedro's | Portfolio",
   description:
-    "Soojung is a full-stack devveloper based in San Francisco, California",
+    "Pedro Alarcon is a full-stack devveloper based in Houston, Texas",
 };
 
 export default function RootLayout({

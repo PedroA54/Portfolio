@@ -28,9 +28,9 @@ export default function Intro() {
             <Image
               src={picImg}
               alt="picture of me"
-              width="195"
-              height="195"
-              quality="95"
+              width="200"
+              height="200"
+              quality="100"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-x1"
             />
