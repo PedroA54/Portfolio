@@ -28,8 +28,8 @@ export default function Intro() {
             <Image
               src={picImg}
               alt="picture of me"
-              width="192"
-              height="192"
+              width="195"
+              height="195"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-x1"
@@ -46,7 +46,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            💻
           </motion.span>
         </div>
       </div>
@@ -56,7 +56,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {`Hi, I'm Soojung. I'm a junior full-stack developer based in San Francisco, California. I'm currently looking for a full-time position as a junior developer.`}
+        {`Hi, I'm Pedro Alarcon. I'm a full-stack developer based in Houston, Texas. I'm currently looking for a full-time position as a junior developer.`}
       </motion.h1>
 
       <motion.div
@@ -79,12 +79,12 @@ export default function Intro() {
         </a>
 
         <a className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-        href="https://www.linkedin.com/in/soo-jung-kim0106/" target="_blank">
+        href="https://www.linkedin.com/in/pedroalarcon54/" target="_blank">
           <BsLinkedin />
         </a>
 
         <a className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-        href="https://github.com/soojkim0106" target="_blank">
+        href="https://github.com/PedroA54" target="_blank">
           <FaGithubSquare />
         </a>
       </motion.div>

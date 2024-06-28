@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import fotoforgeImg from "@/public/fotoforge.png";
 import petpal_hotelImg from "@/public/petpalhotel.png";
 import reciperealmImg from "@/public/reciperealm.png";
-import cafecriticImg from "@/public/cafecritic.png";
+import bartenderbuddyImg from "@/public/bartenderbuddy.png";
 
 export const links = [
     {
@@ -60,32 +60,32 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-    title: "Slice Sleuth",
+    title: "PetPal Hotel",
     description:
         "Webpage game that keeps track of the user’s score and displays it on score page. Users are able to keep track of their score via their username and are able to play two unique rounds.",
     tags: ["React", "JavaScript", "CSS", "HTML"],
-    imageUrl: slice_sleuth_2Img,
+    imageUrl:  petpal_hotelImg,
     },
     {
-    title: "Plantsy: Dead or Alive",
+    title: "RecipeRealm",
     description:
         "CLI game that mimics plant growing simulation.",
     tags: ["Python", "CLI", "SQLite"],
-    imageUrl: plantsy2Img,
+    imageUrl: reciperealmImg,
     },
     {
-    title: "Meowstar",
+    title: "FotoForge",
     description:
         "This is a project made to implement full-stack basic knowledge with forms and user authentication and authorization.",
     tags: ["React", "JavaScript", "SQL", "Python", "Flask", "CSS", "Flask-SQLAlchemy", "Marshmallow"],
-    imageUrl: projectImg,
+    imageUrl: fotoforgeImg,
     },
     {
-    title: "Cafe Critic",
+    title: "Bartender Buddy",
     description:
         "Fully deployed full-stack web application enabling users to leave reviews for cafes and comment on existing reviews within the cafe.",
     tags: ["React", "JavaScript", "Python", "Flask-SQLAlchemy", "Marshmallow", "GoogleAuth"],
-    imageUrl: cafecriticImg,
+    imageUrl: bartenderbuddyImg,
     },
 ] as const;
 
