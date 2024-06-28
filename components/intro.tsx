@@ -56,7 +56,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {`Hi, I'm Pedro Alarcon. I'm a full-stack developer based in Houston, Texas. I'm currently looking for a full-time position as a junior developer.`}
+        {`Hi, I'm Pedro Alarcon. I'm a full-stack developer based in Houston, Texas. I'm currently looking for a full-time position as a developer.`}
       </motion.h1>
 
       <motion.div
