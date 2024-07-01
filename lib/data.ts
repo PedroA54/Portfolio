@@ -36,7 +36,7 @@ export const experiencesData = [
     title: "Graduated Flatiron bootcamp",
     location: "Remote",
     description:
-        "I graduated after 15 weeks of studying. I am actively looking for a junior full-stack development position.",
+        "I graduated after 15 weeks of studying. I am actively looking for a full-stack development position.",
     icon: React.createElement(LuGraduationCap),
     date: "2024",
     },
@@ -44,7 +44,7 @@ export const experiencesData = [
     title: "Professional Truck Driver",
     location: "Remote",
     description:
-        "I worked as an experienced Professional Truck Driver, adept at safely operating commercial vehicles in strict compliance with regulations. I excelled in conducting thorough inspections and optimizing delivery routes for efficiency, consistently meeting deadlines. I was known for my strong commitment to customer service, fostering positive relationships with clients and maintaining a stellar record for safety and reliability in diverse driving conditions.",
+        "I worked as an experienced Professional Truck Driver, safely operating commercial vehicles in strict compliance with regulations. I excelled in conducting thorough inspections and optimizing delivery routes for efficiency, consistently meeting deadlines. I was known for my strong commitment to customer service, fostering positive relationships with clients and maintaining a stellar record for safety and reliability in diverse driving conditions.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2024",
     },
@@ -55,15 +55,15 @@ export const projectsData = [
     {
     title: "Bartender Buddy",
     description:
-        "Bartender Buddy is a web app for discovering and sharing cocktail recipes. Users can browse recipes, search by name or ingredients, and contribute their own mixes.",
-    tags: [ "JavaScript", "CSS", "HTML"],
+        "Bartender Buddy is a web application for discovering and sharing cocktail recipes. Users can browse recipes, search by name or ingredients, and contribute their own mixes.",
+    tags: [ "JavaScript", "CSS", "HTML", "JSON"],
     imageUrl:  bartenderbuddyImg,
     },
     {
     title: "FotoForge",
     description:
         "Create, Save, Interact, and Tailor images to your unique vision.",
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["JavaScript", "CSS", "HTML", "JSON"],
     imageUrl: fotoforgeImg,
     },
     {
@@ -77,7 +77,7 @@ export const projectsData = [
     title: "RecipeRealm",
     description:
         "Fully deployed full-stack web application enabling users to discover a diverse collection of recipes from around the world.",
-    tags: ["Css","React", "JavaScript", "Python", "Flask-SQLAlchemy", "Marshmallow"],
+    tags: ["Css","React", "JavaScript", "Python", "Flask-SQLAlchemy", "Marshmallow", "Postman API", "HTML"],
     imageUrl: reciperealmImg,
     },
 ] as const;

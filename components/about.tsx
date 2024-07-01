@@ -36,8 +36,7 @@ export default function About() {
       </p>
 
       <p>
-        <span>When I'm not coding</span>, I like playing basketball and watching movies. I also am trying {" "}
-        <span className="font-medium">to get out of my comfort zone and learn new things daily</span>. I am currently
+        <span>When I'm not coding</span>, I like playing basketball and watching movies. I am currently
         learning about <span className="font-medium">TypeScript and learning the German Language</span>.
       </p>
     </motion.section>
