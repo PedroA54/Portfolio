@@ -58,7 +58,7 @@ export default function Intro() {
       >
         {`Hi, I'm Pedro Alarcon, a passionate and experienced full-stack developer. I'm currently seeking a full-time position where I can contribute my skills and knowledge`}
       </motion.h1>
-
+    
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
